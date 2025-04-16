@@ -1,6 +1,6 @@
 # Team MagicCube
 
-## What was the goal of your Web Application?**
+## What was the goal of your Web Application?
 
 Let users make pictures with a 7x7, six-sided Rubix Cube.  
 
