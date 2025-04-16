@@ -21,7 +21,11 @@ Every time users hit a button, the cube "magically" rotates to a different pictu
   
 ## What was your collaborative process like?
 
-asldhflsjflsfl  
+Wednesday: Came up with website plan in class and drafted a visual.
+
+    * Homework: Draft some images for the cube, and start the CSS. *
+
+Friday: Work on the HTML and Javascript in class, putting everything together.
 
 # Project Requirements:
 
