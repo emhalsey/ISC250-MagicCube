@@ -12,30 +12,29 @@ Let users make pictures with a 7x7, six-sided Rubix Cube.
 
 ## How was "Magic" incorporated into the project?
 
-Every time users hit a button, the cube "magically" rotates to a different picture.  
-
-## Describe the working relationship between you and your partner(s). What responsibilities did each of you have?
-
-
-
+Every time users hit a button, the cube "magically" rotates to a different picture. 
   
 ## What was your collaborative process like?
 
 Wednesday: Came up with website plan in class and drafted a visual.
 
-    * Homework: Draft some images for the cube, and start the CSS. *
+* Homework: Draft some images for the cube, and start the CSS. *
 
-Friday: Work on the HTML and Javascript in class, putting everything together.
+Friday: 
+
+  Raymond: Work on the CSS.
+  
+  Emma: Work on the JavaScript.
 
 # Project Requirements:
 
 - Students must work collaboratively to create one program
 
-- Program must demonstrate effective use of Javascript
+- Program must demonstrate effective use of JavaScript
 
 - Students must learn and implement a new function of JavaScript into their program
 
-    - Students may use static online resources to learn new skills (Reddit, Stack overflow, W3schools, etc.)
+    - Students may use static online resources to learn new skills (Reddit, Stack Overflow, W3schools, etc)
 
     - Students may not use ChaptGPT or any generative AI systems for this project
 
