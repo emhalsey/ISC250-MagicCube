@@ -1,0 +1,39 @@
+body{
+    align-items: center;
+    padding: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td{
+    width:3em;
+    height:3em;
+}
+
+td, tr{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: whitesmoke;
+}
+.black{
+    background-color: black;
+}
+
