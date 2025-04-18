@@ -24,7 +24,7 @@ Friday:
 
   Raymond: Work on the CSS.
   
-  Emma: Work on the JavaScript.
+  Emma: Designed some "cubes". Created color palette. Work on the JavaScript.
 
 # Project Requirements:
 
