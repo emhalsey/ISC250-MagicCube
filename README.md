@@ -18,13 +18,11 @@ Every time users hit a button, the cube "magically" rotates to a different pictu
 
 Wednesday: Came up with website plan in class and drafted a visual.
 
-* Homework: Draft some images for the cube, and start the CSS. *
+*Homework: Draft some images for the cube, and start the CSS.*
 
 Friday: 
-
-  Raymond: Work on the CSS.
   
-  Emma: Designed some "cubes". Created color palette. Work on the JavaScript.
+  Emma: Designed some "cubes". Created color palette. Tailored some code from previous ISC250 labs.
 
 # Project Requirements:
 
