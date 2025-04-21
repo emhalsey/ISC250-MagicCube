@@ -28,6 +28,8 @@ Monday (4/21):
 
   Raymond: Designing CSS and adding buttons to HTML.
 
+*Homework: Emma - work on js button functions. Raymond - make website design nicer.*
+
 # Project Requirements:
 
 - Students must work collaboratively to create one program
