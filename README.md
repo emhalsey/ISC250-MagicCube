@@ -6,7 +6,7 @@ Let users make pictures with a 7x7, six-sided Rubik's Cube.
 
 ## What new JavaScript skill did you learn? What resources did you use to learn it?
 
-We learned how to animate images using W3Schools and more complex button functions, also using W3Schools.  
+Emma: Using W3Schools and Stackoverflow, learned how to make the button reveal a certain image.  
 
 ## How was "Magic" incorporated into the project?
 
@@ -26,7 +26,7 @@ Monday (4/21):
   
   Emma: Worked on writing JavaScript functions for buttons.
 
-  Raymond: 
+  Raymond: Designing CSS and adding buttons to HTML.
 
 # Project Requirements:
 
