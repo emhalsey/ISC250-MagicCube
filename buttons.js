@@ -17,5 +17,5 @@
 // };
 
 randomButton = function(){
-    document.getElementById("amongus").className = "classname";
+    document.getElementsByClassName("color1").className = "red";
 }
