@@ -19,11 +19,13 @@
 //randomButton = function(){
     //document.getElementsByClassName("color1").className = "red";
 //}
+
+
 function randomButton() {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
-    const cells = document.querySelectorAll('#amongus td');
+    const amongus = document.querySelectorAll('#amongus td');
 
-    cells.forEach(cell => {
+    amongus.forEach(cell => {
         // Remove existing color classes
         colors.forEach(color => cell.classList.remove(color));
         
