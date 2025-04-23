@@ -32,11 +32,11 @@ td, tr {
     cursor: pointer;
 }
 
-/* Color classes */
-.red { background-color: red; }
+/* Define colors to be added dynamically */
+.red    { background-color: red; }
 .orange { background-color: orange; }
 .yellow { background-color: yellow; }
-.green { background-color: green; }
-.blue { background-color: blue; }
-.white { background-color: whitesmoke; }
-.black { background-color: black; }
+.green  { background-color: green; }
+.blue   { background-color: blue; }
+.white  { background-color: whitesmoke; }
+.black  { background-color: black; }
