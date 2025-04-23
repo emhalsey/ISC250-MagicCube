@@ -6,7 +6,7 @@ Let users make pictures with a 7x7, six-sided Rubik's Cube.
 
 ## What new JavaScript skill did you learn? What resources did you use to learn it?
 
-Emma: Using W3Schools and Stackoverflow, learned how to write "Switch/Case" statements in JavaScript.  
+Using W3Schools and Stackoverflow, learned how to write more advanced statements in JavaScript.  
 
 ## How was "Magic" incorporated into the project?
 
