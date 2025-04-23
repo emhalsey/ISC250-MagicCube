@@ -1,48 +1,42 @@
-body{
+body {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 1em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-td{
-    width:3em;
-    height:3em;
+table {
+    border-collapse: collapse;
 }
 
-td, tr{
-    margin: 0px;
-    padding: 0px;
+td {
+    width: 3em;
+    height: 3em;
+}
+
+td, tr {
+    margin: 0;
+    padding: 0;
     border: none;
 }
+
 .button {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-.red{
-    background-color: red;
-}
-.orange{
-    background-color: orange;
-}
-.yellow{
-    background-color: yellow;
-}
-.green{
-    background-color: green;
-}
-.blue{
-    background-color: blue;
-}
-.white{
-    background-color: whitesmoke;
-}
-.black{
-    background-color: black;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
 }
 
+/* Color classes */
+.red { background-color: red; }
+.orange { background-color: orange; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.white { background-color: whitesmoke; }
+.black { background-color: black; }

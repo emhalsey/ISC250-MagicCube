@@ -16,6 +16,19 @@
 //     document.getElementById('color3').innerHTML = color1;
 // };
 
-randomButton = function(){
-    document.getElementsByClassName("color1").className = "red";
+//randomButton = function(){
+    //document.getElementsByClassName("color1").className = "red";
+//}
+function randomButton() {
+    const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
+    const cells = document.querySelectorAll('#amongus td');
+
+    cells.forEach(cell => {
+        // Remove existing color classes
+        colors.forEach(color => cell.classList.remove(color));
+        
+        // Assign a new random color class
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        cell.classList.add(randomColor);
+    });
 }
