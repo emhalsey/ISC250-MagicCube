@@ -23,9 +23,9 @@
 
 function randomButton() {
     const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
-    const amongus = document.querySelectorAll('#amongus td');
+    const color1 = document.querySelectorAll('#amongus td');
 
-    amongus.forEach(cell => {
+    color1.forEach(cell => {
         // Remove existing color classes
         colors.forEach(color => cell.classList.remove(color));
         
