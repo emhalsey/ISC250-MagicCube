@@ -28,6 +28,10 @@ Monday (4/21):
 
   Raymond: Designing CSS and adding buttons to HTML.
 
+Wednesday (4/23) (QUEST Day):
+
+  Scheduled a meeting during our normal class time and continued the previous work that we began in class.
+
 # Project Requirements:
 
 - Students must work collaboratively to create one program
