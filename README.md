@@ -8,6 +8,12 @@ Let users make pictures with a 7x7, six-sided Rubik's Cube.
 
 Using W3Schools and Stackoverflow, learned how to write more advanced statements in JavaScript.  
 
+- Toggling content
+
+- Changing <td> one at a time
+
+- Random colors
+
 ## How was "Magic" incorporated into the project?
 
 Every time users hit a button, the Rubik's cube "magically" switches to a different picture. 
