@@ -36,11 +36,17 @@ Monday (4/21):
 
   Raymond: Designing CSS and adding buttons to HTML.
 
-*Homework: Emma - work on js button functions. Raymond - make website design nicer.*
+*Homework: Raymond - worked on js button functions. Emma - make website design nicer.*
 
 Wednesday (4/23) (QUEST Day):
 
   Scheduled a meeting during our normal class time and continued the previous work that we began in class.
+
+Thursday (4/24):
+  
+  Emma: Added toggle feature to buttons. Edited site design.
+
+
 
 # Project Requirements:
 
