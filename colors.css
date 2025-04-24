@@ -21,15 +21,17 @@ td, tr {
     border: none;
 }
 
-.button {
+button {
     background-color: green;
-    border: none;
     color: white;
-    margin: auto;
+    padding: 0.5em 1em;
     text-align: center;
-    display: inline-block;
-    width: fit-content;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 8em;
     cursor: pointer;
+    border-radius: 0.5em;
+    border: none;
 }
 
 .red    { background-color: red; }
