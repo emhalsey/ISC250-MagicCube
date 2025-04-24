@@ -10,7 +10,7 @@ Using W3Schools and Stackoverflow, learned how to write more advanced statements
 
 ## How was "Magic" incorporated into the project?
 
-Every time users hit a button, the cube "magically" rotates to a different picture. 
+Every time users hit a button, the Rubik's cube "magically" switches to a different picture. 
   
 ## What was your collaborative process like?
 
