@@ -10,7 +10,7 @@ Using W3Schools and Stackoverflow, learned how to write more advanced statements
 
 - Toggling content
 
-- Changing <td> one at a time
+- Changing `<td>` one at a time
 
 - Random colors
 
