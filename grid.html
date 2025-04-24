@@ -13,11 +13,11 @@
 
         <h1>The Magic Cube</h1> <br>
 
-        <button onclick="randomButton()">Amongus</button>
-        <button onclick="randomButton()">Flowers</button>
-        <button onclick="randomButton()">Mario</button>
+        <button onclick="randomButton('amongus')">Amongus</button>
+        <button onclick="randomButton('flowers')">Flowers</button>
+        <button onclick="randomButton('mario')">Mario</button>
 
-        <table id="amongus">
+        <table id="amongus" style="display: none;">
           <!-- row 1 -->
           <tr> 
             <td class="color1"></td>
@@ -91,7 +91,7 @@
         </table>
         <br>
         
-        <table id="flowers">
+        <table id="flowers" style="display: none;">
           <!-- row 1 -->
           <tr> 
             <td class="color1"></td>
@@ -165,7 +165,7 @@
         </table>
         <br>
         
-        <table id="mario">
+        <table id="mario" style="display: none;">
           <!-- row 1 -->
           <tr> 
             <td class="color1"></td>

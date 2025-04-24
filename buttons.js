@@ -1,28 +1,41 @@
-function randomButton() {
-    const colorOptions = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
+function randomButton(id) {
+    
+    toggle = document.getElementById(id).style.display
 
-    // Shuffle helper
-    function getRandomColor(excludeColors = []) {
-        const availableColors = colorOptions.filter(color => !excludeColors.includes(color));
-        return availableColors[Math.floor(Math.random() * availableColors.length)];
-    }
+    if (toggle === 'none') 
+        {
+            const colorOptions = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
 
-    const groups = ['color1', 'color2', 'color3','color4','color5','color6'];
-    const usedColors = [];
+            // Shuffle helper
+            function getRandomColor(excludeColors = []) {
+                const availableColors = colorOptions.filter(color => !excludeColors.includes(color));
+                return availableColors[Math.floor(Math.random() * availableColors.length)];
+            }
 
-    groups.forEach(group => {
-        const groupCells = document.querySelectorAll(`.${group}`);
+            const groups = ['color1', 'color2', 'color3','color4','color5','color6'];
+            const usedColors = [];
 
-        // Remove any old color classes (from colorOptions list)
-        groupCells.forEach(cell => {
-            colorOptions.forEach(color => cell.classList.remove(color));
-        });
+            groups.forEach(group => {
+                const groupCells = document.querySelectorAll(`.${group}`);
 
-        // Assign a new random color that hasn't already been used
-        const newColor = getRandomColor(usedColors);
-        usedColors.push(newColor);
+                // Remove any old color classes (from colorOptions list)
+                groupCells.forEach(cell => {
+                    colorOptions.forEach(color => cell.classList.remove(color));
+                });
 
-        // Add that color to all cells in the group
-        groupCells.forEach(cell => cell.classList.add(newColor));
-    });
+                // Assign a new random color that hasn't already been used
+                const newColor = getRandomColor(usedColors);
+                usedColors.push(newColor);
+
+                // Add that color to all cells in the group
+                groupCells.forEach(cell => cell.classList.add(newColor));
+            });
+
+            toggle = "initial";
+        }
+        else 
+        {
+            toggle = "none"
+        }
+
 }
