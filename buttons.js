@@ -14,7 +14,7 @@ function randomButton(id) {
         
             const colorOptions = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
 
-            // Shuffle helper
+            // Shuffles the available colors
             function getRandomColor(excludeColors = []) {
                 const availableColors = colorOptions.filter(color => !excludeColors.includes(color));
                 return availableColors[Math.floor(Math.random() * availableColors.length)];

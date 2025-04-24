@@ -32,7 +32,6 @@ td, tr {
     cursor: pointer;
 }
 
-/* Define colors to be added dynamically */
 .red    { background-color: red; }
 .orange { background-color: orange; }
 .yellow { background-color: yellow; }

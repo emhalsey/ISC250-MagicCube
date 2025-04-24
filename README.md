@@ -6,13 +6,15 @@ Let users make pictures with a 7x7, six-sided Rubik's Cube.
 
 ## What new JavaScript skill did you learn? What resources did you use to learn it?
 
-Using W3Schools and Stackoverflow, learned how to write more advanced statements in JavaScript.  
+Using W3Schools, GeeksForGeeks, and Stackoverflow, learned how to write more advanced statements in JavaScript.  
 
 - Toggling content
 
 - Changing `<td>` one at a time
 
 - Random colors
+
+- Calling element methods
 
 ## How was "Magic" incorporated into the project?
 
