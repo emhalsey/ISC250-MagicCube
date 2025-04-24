@@ -1,9 +1,17 @@
+window.onload = () => {
+    document.querySelectorAll('table').forEach(table => {
+      table.style.display = "none";
+    });
+  };
+  
 function randomButton(id) {
-    
-    toggle = document.getElementById(id).style.display
 
-    if (toggle === 'none') 
-        {
+    const allItems = document.querySelectorAll('table');
+    
+    allItems.forEach(item => {
+
+        if (item.id === id) {
+        
             const colorOptions = ['red', 'orange', 'yellow', 'green', 'blue', 'white', 'black'];
 
             // Shuffle helper
@@ -16,7 +24,7 @@ function randomButton(id) {
             const usedColors = [];
 
             groups.forEach(group => {
-                const groupCells = document.querySelectorAll(`.${group}`);
+                const groupCells = item.querySelectorAll(`.${group}`);
 
                 // Remove any old color classes (from colorOptions list)
                 groupCells.forEach(cell => {
@@ -31,11 +39,12 @@ function randomButton(id) {
                 groupCells.forEach(cell => cell.classList.add(newColor));
             });
 
-            toggle = "initial";
+            item.style.display = "block";
         }
         else 
         {
-            toggle = "none"
+            item.style.display = "none";
         }
+    });
 
 }
