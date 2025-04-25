@@ -4,6 +4,9 @@ window.onload = () => {
     });
   };
   
+
+//   Random color shuffler
+
 function randomButton(id) {
 
     const allItems = document.querySelectorAll('table');
@@ -47,4 +50,23 @@ function randomButton(id) {
         }
     });
 
+}
+
+// Random album shuffler
+
+const albums = ['sos', 'blonde', 'gkmc', 'bornsinner', 'anti', 'untitled', 'channelorange'];
+
+function showAlbum() {
+    
+    // Hide all tables first!
+    albums.forEach(id => {
+        const table = document.getElementById(id);
+        if (table) table.style.display = 'none';
+    });
+
+    const randomId = albums[Math.floor(Math.random() * albums.length)];
+
+    const randomTable = document.getElementById(randomId);
+
+    if (randomTable) randomTable.style.display = 'table';
 }

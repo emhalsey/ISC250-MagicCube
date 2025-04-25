@@ -12,7 +12,7 @@ Using W3Schools, GeeksForGeeks, and Stackoverflow, learned how to write more adv
 
 - Changing `<td>` one at a time
 
-- Random colors
+- Random picker (colors, albums)
 
 - Calling element methods
 
