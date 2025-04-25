@@ -4,13 +4,17 @@ window.onload = () => {
     });
   };
   
-
+  
 //   Random color shuffler
-
 function randomButton(id) {
-
-    const allItems = document.querySelectorAll('table');
     
+    const allItems = document.querySelectorAll('table');
+
+    // Hide all tables first!
+    allItems.forEach(table => {
+        table.style.display = 'none';
+    });
+
     allItems.forEach(item => {
 
         if (item.id === id) {
@@ -58,10 +62,11 @@ const albums = ['sos', 'blonde', 'gkmc', 'bornsinner', 'anti', 'untitled', 'chan
 
 function showAlbum() {
     
+    const allItems = document.querySelectorAll('table');
+
     // Hide all tables first!
-    albums.forEach(id => {
-        const table = document.getElementById(id);
-        if (table) table.style.display = 'none';
+    allItems.forEach(table => {
+        table.style.display = 'none';
     });
 
     const randomId = albums[Math.floor(Math.random() * albums.length)];
