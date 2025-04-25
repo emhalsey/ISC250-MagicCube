@@ -10,6 +10,8 @@ Using W3Schools, GeeksForGeeks, and Stackoverflow, learned how to write more adv
 
 - Toggling content
 
+  - Hiding all items before revealing a new one
+
 - Changing `<td>` one at a time
 
 - Random picker (colors, albums)
@@ -46,7 +48,7 @@ Thursday (4/24):
   
   Emma: Added toggle feature to buttons. Edited site design.
 
-
+Overall, communicated ideas clearly and used email to set up meetings, working on all parts together rather than splitting up the work (which would make it difficult to build the site).
 
 # Project Requirements:
 
